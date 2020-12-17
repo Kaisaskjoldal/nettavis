@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Nettavis</title>
+        <style>
+            nav{
+                background-color: black;
+                display: grid;
+                grid-template-columns: auto repeat(4,1fr);
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            nav a{
+                padding-left: 30px;
+                padding-right: 30px;
+                color: white;
+                font-family: inherit;
+            }
+            nav .heim{
+                background-color: #3f7fb7;
+                font-weight: 800px;
+                font-size: 32px;
+                padding: 10px;
+                font-family: cursive;
+            }
+            html{
+                margin: 0;
+            }
+            body{
+                background-color: #dadfff;
+                font-family: sans-serif;
+            }
+            main{
+                max-width: 970px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-gap: 10px;
+            }
+            main h1, main p{
+                padding: 10px;
+            }
+            main a, main div{
+                background-color: white;
+                color: #333;
+                text-decoration: none;
+            }
+            main img, main video{
+                width: 100%;
+            }
+            .kol-1{
+                grid-column: span 1;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="heim">Avisa</a>
+                <a href="risikoen_for_angrep_aukar.html">Riskioen for angrep øker</a>
+                <a href="informasjonstryggleik.html">Informasjonssikkerhet</a>
+                <a href="tryggleik_og_personvern.html">Sikkerhet og personvern</a>
+                <a href="regelverk.html">Regelverk</a>
+            </nav>
+        </header>
+        <main>
+            <a class="kol-12">
+                <img src="media/6.2beskyttelses.jpg">
+                <h1>Beskyttelsestiltak</h1>
+                <p>Det finnes noen generelle råd som alle som arbeider med elektroniske informasjonssystemer bør følge</p>
+            </a>
+            <div class="kol-6">
+                <img src="media/6.2ulike.jpg">
+                <h1>Ulike beskyttelsesbehov</h1>
+                <p>Forskjellige typer informasjon har ulike beskyttelsesbehov- konfidensialitet, integritet, tilgjengelighet</p>
+            </div>
+            <div class="kol-6">
+                <img src="media/6.2hvem.webp">
+                <h1>Hvem må beskytte seg</h1>
+                <p>Alle som arbeider med informasjonsverdier har ansvar for å beskytte dem</p>
+            </div>
+        </main>
+        <h3>Kilder:</h3>
+        <ul>
+            <li>
+                <a href="https://spaniaavisen.no/her-koster-det-minst-a-bruke-minibanken-der-du-ikke-er-kunde/">Bilde Beskyttelsestiltak</a>
+            </li>
+            <li>
+                <a href="https://www.cw.no/artikkel/cloud/ibm-beskytter-mot-skygge-it">Bilde Ulike beskyttelsesbehov</a>
+            </li>
+            <li>
+                <a href="https://www.elkjop.no/cms/senior-telefoner/slik-velger-du-en-brukervennlig-telefon-til-seniorer/">Bilde Hvem må beskytte seg</a>
+            </li>
+        </ul>
+    </body>
+</html>

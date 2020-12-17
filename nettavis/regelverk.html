@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Nettavis</title>
+        <style>
+            nav{
+                background-color: black;
+                display: grid;
+                grid-template-columns: auto repeat(4,1fr);
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            nav a{
+                padding-left: 30px;
+                padding-right: 30px;
+                color: white;
+                font-family: inherit;
+            }
+            nav .heim{
+                background-color: #3f7fb7;
+                font-weight: 800px;
+                font-size: 32px;
+                padding: 10px;
+                font-family: cursive;
+            }
+            html{
+                margin: 0;
+            }
+            body{
+                background-color: #dadfff;
+                font-family: sans-serif;
+            }
+            main{
+                max-width: 970px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-gap: 10px;
+            }
+            main h1, main p{
+                padding: 10px;
+            }
+            main a, main div{
+                background-color: white;
+                color: #333;
+                text-decoration: none;
+            }
+            main img, main video{
+                width: 100%;
+            }
+            .kol-1{
+                grid-column: span 1;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="heim">Avisa</a>
+                <a href="risikoen_for_angrep_aukar.html">Risikoen for angrep øker</a>
+                <a href="informasjonstryggleik.html">Informasjonssikkerhet</a>
+                <a href="tryggleik_og_personvern.html">Sikkerhet og personvern</a>
+                <a href="regelverk.html">Regelverk</a>
+            </nav>
+        </header>
+        <main>
+            <a class="kol-12">
+                <img src="media/6.4behandling.jpg">
+                <h1>Behandling av personopplysninger</h1>
+                <p>Personopplysningsloven regulerer behandling av data som ikke er regulert av annet lovverk</p>
+            </a>
+            <div class="kol-6">
+                <img src="media/6.4lovene.jpg">
+                <h1>Lovene i andre land</h1>
+                <p>For en som arbeider med IT-systemer, er det altså ikke bare viktig å ha grundig kjennskap til lovverket. Vi må også vite hvordan lovene vil påvirke det systemet vi drifter eller utvikler</p>
+            </div>
+            <div class="kol-6">
+                <img src="media/6.4universell.jpg">
+                <h1>Universell utforming</h1>
+                <p>Universell utforming beskriver tekniske krav til programvare som apper, nettsider og sytemer rettet mot offentligheten</p>
+            </div>
+        </main>
+        <h3>Kilder:</h3>
+        <ul>
+            <li>
+                <a href="https://arbinn.nho.no/forretningsdrift/personvern/qa-personvernforordningen/hva-er-personopplysninger/">Bilde Bheandling av personopplysninger</a>
+            </li>
+            <li>
+                <a href="https://coursechows.com/course/laws1000-commercial-law/">Bilde Lovene i andre land</a>
+            </li>
+            <li>
+                <a href="https://nettrakett.no/hva-er-universell-utforming-pa-nett/">Bilde Universell utforming</a>
+            </li>
+        </ul>
+    </body>
+</html>

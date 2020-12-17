@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Nettavis</title>
+        <style>
+            nav{
+                background-color: black;
+                display: grid;
+                grid-template-columns: auto repeat(4,1fr);
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            nav a{
+                padding-left: 30px;
+                padding-right: 30px;
+                color: white;
+                font-family: inherit;
+            }
+            nav .heim{
+                background-color: #3f7fb7;
+                font-weight: 800px;
+                font-size: 32px;
+                padding: 10px;
+                font-family: cursive;
+            }
+            html{
+                margin: 0;
+            }
+            body{
+                background-color: #dadfff;
+                font-family: sans-serif;
+            }
+            main{
+                max-width: 970px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-gap: 10px;
+            }
+            main h1, main p{
+                padding: 10px;
+            }
+            main a, main div{
+                background-color: white;
+                color: #333;
+                text-decoration: none;
+            }
+            main img, main video{
+                width: 100%;
+            }
+            .kol-1{
+                grid-column: span 1;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="heim">Avisa</a>
+                <a href="risikoen_for_angrep_aukar.html">Riskioen for angrep øker</a>
+                <a href="informasjonstryggleik.html">Informasjonssikkerhet</a>
+                <a href="tryggleik_og_personvern.html">Sikkerhet og personvern</a>
+                <a href="regelverk.html">Regelverk</a>
+            </nav>
+        </header>
+        <main>
+            <a class="kol-12">
+                <img src="media/6.1trussler.jpg">
+                <h1>Trussler i digitalrommet</h1>
+                <p>Våres stadig økning av digitalisering, øker og faren for trusler på områder som vi tidligere ikke trengte å bekymre oss for</p>
+            </a>
+            <div class="kol-6">
+                <img src="media/6.1sarbare.jpg">
+                <h1>Sårbare digitale verdikjeder</h1>
+                <p>Sammensatte og komplekse digitale verdikjeder er sårbare. Når feilene utløses, rammes ofte flere områder samtidig. Sammenhengene mellomde forskjellige verdikjedene er ofte ikke synlige før en feil intreffer.</p>
+            </div>
+            <div class="kol-6">
+                <img src="media/6.1risiko.png">
+                <h1>Risikotrekant</h1>
+                <p>Risikoen for angrep blir mindre hvis en av de tre faktorene- verdi, sårbarhet eller trussel- kan settes lavere. Reduseres sårbarheten, reduseres risikoen.</p>
+            </div>
+        </main>
+        <h3>Kilder:</h3>
+        <ul>
+            <li>
+                <a href="https://www.digi.no/artikler/norsis-kraftig-okning-i-digitale-trusler-mot-norge/484492">Bilde trussler i digitalrommet</a>
+            </li>
+            <li>
+                <a href="https://forskning.no/internett-sosiale-relasjoner-mobiltelefon/derfor-blir-noen-avhengige-av-mobiltelefonen/327672">Bilde Sårbare digitale verdikjeder</a>
+            </li>
+            <li>
+                <a href="https://docplayer.me/43389130-Charlotte-hille-og-charlotte-nordbo-myr-security-kultur-hva-kan-marinen-som-organisasjon-gjore-for-a-forbedre-security-kulturen-masteroppgave-2016.html">Bilde Risikotrekant</a>
+            </li>
+        </ul>
+    </body>
+</html>

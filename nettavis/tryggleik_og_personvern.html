@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Nettavis</title>
+        <style>
+            nav{
+                background-color: black;
+                display: grid;
+                grid-template-columns: auto repeat(4,1fr);
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            nav a{
+                padding-left: 30px;
+                padding-right: 30px;
+                color: white;
+                font-family: inherit;
+            }
+            nav .heim{
+                background-color: #3f7fb7;
+                font-weight: 800px;
+                font-size: 32px;
+                padding: 10px;
+                font-family: cursive;
+            }
+            html{
+                margin: 0;
+            }
+            body{
+                background-color: #dadfff;
+                font-family: sans-serif;
+            }
+            main{
+                max-width: 970px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-gap: 10px;
+            }
+            main h1, main p{
+                padding: 10px;
+            }
+            main a, main div{
+                background-color: white;
+                color: #333;
+                text-decoration: none;
+            }
+            main img, main video{
+                width: 100%;
+            }
+            .kol-1{
+                grid-column: span 1;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="heim">Avisa</a>
+                <a href="risikoen_for_angrep_aukar.html">Risikoen for angrep øker</a>
+                <a href="informasjonstryggleik.html">Informasjonssikkerhet</a>
+                <a href="tryggleik_og_personvern.html">Sikkerhet og personvern</a>
+                <a href="regelverk.html">Regelverk</a>
+            </nav>
+        </header>
+        <main>
+            <a class="kol-12">
+                <img src="media/6.3grense.jpg">
+                <h1>Digital grenseforsvar</h1>
+                <p>Det meste av det vi gjør på nett, går via andre land. Tar du sikkerhetskopi av innholdet på mobilen din, kan all informasjon bli sendt over grensen til andre land</p>
+            </a>
+            <div class="kol-6">
+                <img src="media/6.3person.jpg">
+                <h1>Personvern og tryggingstiltak</h1>
+                <p>Personvernet skal sikre at de digitale sporene du etterlater deg, ikke skal bli utnyttet av andre</p>
+            </div>
+            <div class="kol-6">
+                <img src="media/6.3edward.jpg">
+                <h1>Edward Snowden</h1>
+                <p>Sowden var en IT-tekniker som lekket informasjon fra USAs etteretningsinnsamling til amerikanske aviser</p>
+            </div>
+        </main>
+        <h3>Kilder:</h3>
+        <ul>
+            <li>
+                <a href="https://ammediatec.com/web-security-important/">Bilde Personvern og tryggingstiltak</a>
+            </li>
+            <li>
+                <a href="https://www.wunc.org/post/exiled-nsa-contractor-edward-snowden-i-havent-and-i-wont-cooperate-russia">Bilde Edward Snowden</a>
+            </li>
+        </ul>
+    </body>
+</html>
