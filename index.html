@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Nettavis</title>
+        <style>
+            nav{
+                background-color: black;
+                display: grid;
+                grid-template-columns: auto repeat(4,1fr);
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            nav a{
+                padding-left: 30px;
+                padding-right: 30px;
+                color:white;
+                font-family: inherit;
+            }
+            nav .heim{
+                background-color: #3f7fb7;
+                font-weight: 800;
+                font-size: 32px;
+                padding: 10px;
+                font-family: cursive;
+            }
+            html{
+                margin: 0;
+            }
+            body{
+                background-color: #dadfff;
+                font-family: sans-serif;
+            }
+            main{
+                max-width: 970px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-gap: 10px;
+            }
+            main h1, main p{
+                padding: 10px;
+            }
+            main a, main div{
+                background-color: white;
+                color: #333;
+                text-decoration: none;
+            }
+            main img{
+                width: 100%;
+            }
+            .kol-1{grid-column: span 1;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="heim">AVISA</a>
+                <a href="risikoen_for_angrep_aukar.html">Risikoen for angrep øker</a>
+                <a href="informasjonstryggleik.html">Informasjonssikkerhet</a>
+                <a href="tryggleik_og_personvern.html">Sikkerhet og personvern</a>
+                <a href="regelverk.html">Regelverk</a>
+            </nav>
+        </header>
+        <main>
+            <a class="kol-12" href="risikoen_for_angrep_aukar.html">
+                <img src="media/6.1trussler.jpg">
+                <h1>Trussler i digitalrommet</h1>
+                <p>Våres stadig økning av digitalisering, øker og faren for trusler på områder som vi tidligere ikke trengte å bekymre oss for</p>
+            </a>
+            <a class="kol-6" href="informasjonstryggleik.html">
+                <img src="media/6.2beskyttelses.jpg">
+                <h1>Beskyttelsestiltak</h1>
+                <p>Det finnes noen generelle råd som alle som arbeider med elektroniske informasjonssystemer bør følge</p>
+            </a>
+            <a class="kol-3" href="tryggleik_og_personvern.html">
+                <img src="media/6.3grense.jpg">
+                <h1>Digital grenseforsvar</h1>
+                <p>Det meste av det vi gjør på nett, går via andre land. Tar du sikkerhetskopi av innholdet på mobilen din, kan all informasjon bli sendt over grensen til andre land</p>
+            </a>
+            <a class="kol-3" href="regelverk.html">
+                <img src="media/6.4behandling.jpg">
+                <h1>Behandling av personpplysninger</h1>
+                <p>Personopplysningsloven regulerer behandling av data som ikke er regulert av annet lovverk</p>
+            </a>
+        </main>
+         <h3>Kilder:</h3>
+            <ul>
+                <li>
+                    <a href="https://www.digi.no/artikler/norsis-kraftig-okning-i-digitale-trusler-mot-norge/484492">Bilde Trussler i digitalrommet</a>
+                </li>
+                <li>
+                    <a href="https://spaniaavisen.no/her-koster-det-minst-a-bruke-minibanken-der-du-ikke-er-kunde/">Bilde Beskyttelsestiltak</a>
+                </li>
+                <li>
+                    <a href="https://arbinn.nho.no/forretningsdrift/personvern/qa-personvernforordningen/hva-er-personopplysninger/">Bilde Behandling av personopplysninger</a>
+                </li>
+            </ul>
+    </body>
+</html>
